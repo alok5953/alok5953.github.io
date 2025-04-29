@@ -435,123 +435,184 @@
 <!-- Projects -->
 <section
         id="projects"
-        class="min-h-screen flex items-center py-20 bg-gray-900"
+  class="min-h-screen flex items-center py-24 bg-dark-300"
 >
-    <div class="container mx-auto px-6">
-        <h2 class="text-4xl font-bold text-center mb-16">Featured Projects</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div
-                    class="bg-gray-800 rounded-lg overflow-hidden group hover:bg-gray-700 transition-colors"
-            >
-                <div class="p-6">
-                    <h3 class="text-2xl font-semibold mb-4">Eyeon Portal</h3>
-                    <p class="text-gray-300 mb-4">
-                        A sophisticated platform managing deals and events on mall kiosk
-                        screens. Built with React, Next.js, Node.js, and PostgreSQL for
-                        optimal performance and scalability.
-                    </p>
-                    <div class="flex flex-wrap gap-2">
-                <span
-                        class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                >React</span
-                >
-                        <span
-                                class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                        >Next.js</span
-                        >
-                        <span
-                                class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                        >Node.js</span
-                        >
-                        <span
-                                class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                        >PostgreSQL</span
-                        >
-                    </div>
-                </div>
-            </div>
-
-            <div
-                    class="bg-gray-800 rounded-lg overflow-hidden group hover:bg-gray-700 transition-colors"
-            >
-                <div class="p-6">
-                    <h3 class="text-2xl font-semibold mb-4">AI Book Creator</h3>
-                    <p class="text-gray-300 mb-4">
-                        An innovative AI-powered system generating personalized
-                        children's books. Features dynamic PDF generation and custom
-                        illustrations using HTML Canvas and Node.js.
-                    </p>
-                    <div class="flex flex-wrap gap-2">
-                <span
-                        class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                >AI</span
-                >
-                        <span
-                                class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                        >Canvas</span
-                        >
-                        <span
-                                class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                        >Node.js</span
-                        >
-                        <span
-                                class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                        >PDF Generation</span
-                        >
-                    </div>
-                </div>
-            </div>
-
-            <div
-                    class="bg-gray-800 rounded-lg overflow-hidden group hover:bg-gray-700 transition-colors"
-            >
-                <div class="p-6">
-                    <h3 class="text-2xl font-semibold mb-4">React Website Builder</h3>
-                    <p class="text-gray-300 mb-4">
-                        A powerful website builder allowing users to select and
-                        customize different design components. Similar to Elementor but
-                        with a unique approach to component customization.
-                    </p>
-                    <div class="flex flex-wrap gap-2">
-                <span
-                        class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                >React</span
-                >
-                        <span
-                                class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                        >UI Components</span
-                        >
-                        <span
-                                class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                        >Drag & Drop</span
-                        >
-                    </div>
-                </div>
-            </div>
-
-            <div
-                    class="bg-gray-800 rounded-lg overflow-hidden group hover:bg-gray-700 transition-colors"
-            >
-                <div class="p-6">
-                    <h3 class="text-2xl font-semibold mb-4">Web Scraping Suite</h3>
-                    <p class="text-gray-300 mb-4">
-                        High-performance web scrapers collecting job postings, admission
-                        notifications, and government announcements. Built with Node.js
-                        and Python for efficient data collection.
-                    </p>
-                    <div class="flex flex-wrap gap-2">
-                <span
-                        class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                >Node.js</span
-                >
-                        <span
-                                class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                        >Python</span
-                        >
-                        <span
-                                class="px-3 py-1 bg-blue-400/20 text-blue-400 rounded-full text-sm"
-                        >Data Processing</span
-                        >
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold inline-block relative">
+        Notable Projects
+        <div class="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-accent"></div>
+      </h2>
+      <p class="mt-6 text-gray-400 max-w-2xl mx-auto">Showcasing a selection of my most impactful projects that demonstrate technical expertise and business value creation.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <!-- Eyeon Portal -->
+      <div class="bg-dark-100 rounded-xl overflow-hidden shadow-xl group hover:shadow-accent/20 transition-all duration-300 flex flex-col">
+        <div class="h-48 bg-gradient-to-r from-blue-600 to-accent relative overflow-hidden">
+          <div class="absolute inset-0 bg-dark-300/50 backdrop-blur-sm flex items-center justify-center">
+            <i class="fas fa-desktop text-white text-5xl opacity-70"></i>
+          </div>
+          <div class="absolute top-4 left-4 px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full text-xs font-medium border border-white/20">
+            SaaS Platform
+          </div>
+        </div>
+        
+        <div class="p-8 flex-grow">
+          <h3 class="text-2xl font-bold text-white mb-3">Eyeon Portal</h3>
+          <p class="text-gray-300 mb-6">
+            SaaS platform for real-time mall kiosk management with deal/event automation. Designed database schema and implemented API endpoints for real-time updates, ensuring seamless data synchronization. Led front-end development resulting in a <span class="text-accent font-medium">15% increase in user interaction</span>.
+          </p>
+          
+          <h4 class="text-sm uppercase text-gray-400 font-semibold mb-3">Key Contributions:</h4>
+          <ul class="space-y-2 text-gray-300 mb-6">
+            <li class="flex items-start">
+              <i class="fas fa-check text-accent mr-2 mt-1.5 text-xs"></i>
+              <span>Designed database schema for optimal performance</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-accent mr-2 mt-1.5 text-xs"></i>
+              <span>Implemented real-time API endpoints with WebSockets</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-accent mr-2 mt-1.5 text-xs"></i>
+              <span>Led front-end development with React and Next.js</span>
+            </li>
+          </ul>
+          
+          <div class="flex flex-wrap gap-2 mt-auto">
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">React</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">Next.js</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">Node.js</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">PostgreSQL</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">Firebase</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- AI Book Creator -->
+      <div class="bg-dark-100 rounded-xl overflow-hidden shadow-xl group hover:shadow-accent/20 transition-all duration-300 flex flex-col">
+        <div class="h-48 bg-gradient-to-r from-purple-600 to-accent relative overflow-hidden">
+          <div class="absolute inset-0 bg-dark-300/50 backdrop-blur-sm flex items-center justify-center">
+            <i class="fas fa-book text-white text-5xl opacity-70"></i>
+          </div>
+          <div class="absolute top-4 left-4 px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full text-xs font-medium border border-white/20">
+            AI Integration
+          </div>
+        </div>
+        
+        <div class="p-8 flex-grow">
+          <h3 class="text-2xl font-bold text-white mb-3">AI-Powered Book Generator</h3>
+          <p class="text-gray-300 mb-6">
+            Automated content creation system using OpenAI with Stripe integration. Engineered the AI content generation system, implemented HTML Canvas for dynamic book covers, and created API references for integration, leading to a <span class="text-accent font-medium">20% reduction in content creation time</span> and <span class="text-accent font-medium">30% increase in sales</span>.
+          </p>
+          
+          <h4 class="text-sm uppercase text-gray-400 font-semibold mb-3">Key Contributions:</h4>
+          <ul class="space-y-2 text-gray-300 mb-6">
+            <li class="flex items-start">
+              <i class="fas fa-check text-accent mr-2 mt-1.5 text-xs"></i>
+              <span>Engineered AI content generation system with OpenAI</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-accent mr-2 mt-1.5 text-xs"></i>
+              <span>Implemented HTML Canvas for dynamic book covers</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-accent mr-2 mt-1.5 text-xs"></i>
+              <span>Created API references and Stripe payment integration</span>
+            </li>
+          </ul>
+          
+          <div class="flex flex-wrap gap-2 mt-auto">
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">Node.js</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">OpenAI</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">Canvas</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">PDF</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">Stripe</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Website Builder -->
+      <div class="bg-dark-100 rounded-xl overflow-hidden shadow-xl group hover:shadow-accent/20 transition-all duration-300 flex flex-col">
+        <div class="h-48 bg-gradient-to-r from-green-600 to-accent relative overflow-hidden">
+          <div class="absolute inset-0 bg-dark-300/50 backdrop-blur-sm flex items-center justify-center">
+            <i class="fas fa-paint-brush text-white text-5xl opacity-70"></i>
+          </div>
+          <div class="absolute top-4 left-4 px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full text-xs font-medium border border-white/20">
+            Website Builder
+          </div>
+        </div>
+        
+        <div class="p-8 flex-grow">
+          <h3 class="text-2xl font-bold text-white mb-3">Custom Website Builder</h3>
+          <p class="text-gray-300 mb-6">
+            React-based builder with dynamic component selection. Architected the component selection system, designed the API for dynamic content loading, and created operational runbooks for the product, resulting in a <span class="text-accent font-medium">15% reduction in development time</span> and <span class="text-accent font-medium">25% improvement</span> in client website creation efficiency.
+          </p>
+          
+          <h4 class="text-sm uppercase text-gray-400 font-semibold mb-3">Key Contributions:</h4>
+          <ul class="space-y-2 text-gray-300 mb-6">
+            <li class="flex items-start">
+              <i class="fas fa-check text-accent mr-2 mt-1.5 text-xs"></i>
+              <span>Architected component selection system</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-accent mr-2 mt-1.5 text-xs"></i>
+              <span>Designed API for dynamic content loading</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-accent mr-2 mt-1.5 text-xs"></i>
+              <span>Created operational runbooks for the product</span>
+            </li>
+          </ul>
+          
+          <div class="flex flex-wrap gap-2 mt-auto">
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">React</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">Vite</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">TypeScript</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">UI Components</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Research Logic -->
+      <div class="bg-dark-100 rounded-xl overflow-hidden shadow-xl group hover:shadow-accent/20 transition-all duration-300 flex flex-col">
+        <div class="h-48 bg-gradient-to-r from-red-600 to-accent relative overflow-hidden">
+          <div class="absolute inset-0 bg-dark-300/50 backdrop-blur-sm flex items-center justify-center">
+            <i class="fas fa-chart-line text-white text-5xl opacity-70"></i>
+          </div>
+          <div class="absolute top-4 left-4 px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full text-xs font-medium border border-white/20">
+            Data Platform
+          </div>
+        </div>
+        
+        <div class="p-8 flex-grow">
+          <h3 class="text-2xl font-bold text-white mb-3">Research Logic</h3>
+          <p class="text-gray-300 mb-6">
+            Integrated GraphQL APIs & AI automation, significantly improving data retrieval speed & accuracy. Implemented the GraphQL APIs, designed the AI automation workflow for improved data retrieval, and created training materials for employees on system usage.
+          </p>
+          
+          <h4 class="text-sm uppercase text-gray-400 font-semibold mb-3">Key Contributions:</h4>
+          <ul class="space-y-2 text-gray-300 mb-6">
+            <li class="flex items-start">
+              <i class="fas fa-check text-accent mr-2 mt-1.5 text-xs"></i>
+              <span>Implemented GraphQL APIs for efficient data fetching</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-accent mr-2 mt-1.5 text-xs"></i>
+              <span>Designed AI automation workflow for data processing</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-accent mr-2 mt-1.5 text-xs"></i>
+              <span>Created comprehensive training materials for users</span>
+            </li>
+          </ul>
+          
+          <div class="flex flex-wrap gap-2 mt-auto">
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">GraphQL</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">AI Automation</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">Data Analysis</span>
+            <span class="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">Documentation</span>
                     </div>
                 </div>
             </div>
@@ -559,10 +620,118 @@
     </div>
 </section>
 
+<!-- Education & Certifications -->
+<section
+  id="education"
+  class="py-24 bg-dark-200"
+>
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold inline-block relative">
+        Education & Certifications
+        <div class="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-accent"></div>
+      </h2>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+      <!-- Education -->
+      <div class="bg-dark-100 rounded-xl p-8 shadow-lg">
+        <div class="flex items-center mb-6">
+          <div class="p-4 bg-dark-300 rounded-lg mr-4">
+            <i class="fas fa-graduation-cap text-accent text-2xl"></i>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold">Education</h3>
+            <p class="text-gray-400">Academic background</p>
+          </div>
+        </div>
+        
+        <div class="space-y-6">
+          <div>
+            <h4 class="text-xl font-semibold text-accent">B.Tech in Computer Science</h4>
+            <p class="text-lg text-gray-300">Kalinga University</p>
+            <p class="text-gray-400">2020</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Certifications -->
+      <div class="bg-dark-100 rounded-xl p-8 shadow-lg">
+        <div class="flex items-center mb-6">
+          <div class="p-4 bg-dark-300 rounded-lg mr-4">
+            <i class="fas fa-certificate text-accent text-2xl"></i>
+          </div>
+          <div>
+            <h3 class="text-2xl font-bold">Certifications</h3>
+            <p class="text-gray-400">Professional development</p>
+          </div>
+        </div>
+        
+        <div class="space-y-6">
+          <div>
+            <h4 class="text-xl font-semibold text-accent">AWS Certified Developer – Associate</h4>
+            <p class="text-gray-400">Cloud services and serverless architecture</p>
+          </div>
+          
+          <div>
+            <h4 class="text-xl font-semibold text-accent">Python for Data Science & Machine Learning</h4>
+            <p class="text-gray-400">Data analysis and ML implementations</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Additional Skills -->
+    <div class="mt-16 max-w-5xl mx-auto">
+      <div class="bg-dark-100 rounded-xl p-8 shadow-lg">
+        <h3 class="text-2xl font-bold mb-6">Additional Information</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h4 class="text-lg font-semibold text-accent mb-4">Professional Highlights</h4>
+            <ul class="space-y-3 text-gray-300">
+              <li class="flex items-start">
+                <i class="fas fa-star text-accent mr-3 mt-1 text-xs"></i>
+                <span>7+ Years of Experience delivering top-tier SaaS, AI, and scalable applications</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-star text-accent mr-3 mt-1 text-xs"></i>
+                <span>Deep understanding of business & scalability needs, not just coding</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-star text-accent mr-3 mt-1 text-xs"></i>
+                <span>Transparent communication, fast turnarounds, and client-first approach</span>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 class="text-lg font-semibold text-accent mb-4">Technical Strengths</h4>
+            <ul class="space-y-3 text-gray-300">
+              <li class="flex items-start">
+                <i class="fas fa-star text-accent mr-3 mt-1 text-xs"></i>
+                <span>Created and maintained custom NPM packages to enhance performance</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-star text-accent mr-3 mt-1 text-xs"></i>
+                <span>Passionate about performance optimization in all projects</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-star text-accent mr-3 mt-1 text-xs"></i>
+                <span>Consistently delivered solutions that exceed client expectations</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Contact -->
 <section
-        id="contact"
-        class="min-h-screen flex items-center py-20 bg-gray-800"
+  id="contact"
+  class="min-h-screen flex items-center py-24 bg-dark-300"
 >
     <div class="container mx-auto px-6 text-center">
         <h2 class="text-4xl font-bold mb-16">Let's Connect</h2>
